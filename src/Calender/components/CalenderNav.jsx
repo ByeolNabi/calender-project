@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const CalanderNav = () => {
+const CalanderNav = ({ year, month }) => {
   return (
     <div>
-      
+      <h1>
+        {year}년 {month+1}월
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default CalanderNav
+export default CalanderNav;

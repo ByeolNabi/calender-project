@@ -5,11 +5,11 @@ import dayjs from "dayjs";
 import CalanderNav from "./components/CalenderNav";
 import CalanderBody from "./components/CalenderBody";
 
-const Calender = () => {
+const Calender = ({ year, month }) => {
   return (
     <div>
-      <CalanderNav />
-      <CalanderBody year={2024} month={7} />
+      <CalanderNav year={year} month={month-1} />
+      <CalanderBody year={year} month={month-1} />
     </div>
   );
 };

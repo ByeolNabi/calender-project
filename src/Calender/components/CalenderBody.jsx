@@ -1,4 +1,5 @@
 import React from "react";
+import "./CalenderBody.css"
 
 import dayjs from "dayjs";
 
@@ -13,10 +14,7 @@ const CalanderBody = ({ year, month }) => {
   let board = Array.from({ length: 7 * 5 }, (val, idx) => idx); // map을 위한 array 생성
 
   return (
-    <div>
-      calanderBBodi
-      <br />
-      {d.startOf("month").day(0).format()}
+    <div className="container">
       {board.map((val, idx) => (
         <div key={idx}>
           {e1.date(e2 + val).format()}

@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Calender />
+      <Calender year={2024} month={8}/>
       <h1>hello world</h1>
     </>
   );

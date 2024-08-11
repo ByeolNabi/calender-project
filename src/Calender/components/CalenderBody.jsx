@@ -3,7 +3,7 @@ import "./CalenderBody.css"
 
 import dayjs from "dayjs";
 
-const CalanderBody = ({ year, month }) => {
+const CalenderBody = ({ year, month }) => {
   let a = dayjs().day(0).format(); // 그 주의 월요일로 감
   let b = dayjs().set("date", 1).day(0).format(); // 그 주의 월요일로 감(첫 주라면 month가 바뀔수도 있음)
   let c = dayjs().date(32).format(); // 다음 월로 넘어감
@@ -26,7 +26,7 @@ const CalanderBody = ({ year, month }) => {
   );
 };
 
-export default CalanderBody;
+export default derBody;
 
 /**
  * dayjs().day() : 요일 {0:일요일}

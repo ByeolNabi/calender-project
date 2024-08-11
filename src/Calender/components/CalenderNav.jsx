@@ -1,6 +1,6 @@
 import React from "react";
 
-const CalanderNav = ({ year, month }) => {
+const CalenderNav = ({ year, month }) => {
   return (
     <div>
       <h1>
@@ -10,4 +10,4 @@ const CalanderNav = ({ year, month }) => {
   );
 };
 
-export default CalanderNav;
+export default CalenderNav;

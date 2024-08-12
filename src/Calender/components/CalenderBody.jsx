@@ -1,5 +1,5 @@
 import React from "react";
-import "./CalenderBody.css"
+import "./CalenderBody.css";
 
 import dayjs from "dayjs";
 
@@ -26,7 +26,7 @@ const CalenderBody = ({ year, month }) => {
   );
 };
 
-export default derBody;
+export default CalenderBody;
 
 /**
  * dayjs().day() : 요일 {0:일요일}

@@ -2,14 +2,14 @@ import React from "react";
 
 import dayjs from "dayjs";
 
-import CalanderNav from "./components/CalenderNav";
-import CalanderBody from "./components/CalenderBody";
+import CalenderNav from "./components/CalenderNav";
+import CalenderBody from "./components/CalenderBody";
 
 const Calender = ({ year, month }) => {
   return (
     <div>
-      <CalanderNav year={year} month={month-1} />
-      <CalanderBody year={year} month={month-1} />
+      <CalenderNav year={year} month={month - 1} />
+      <CalenderBody year={year} month={month - 1} />
     </div>
   );
 };
